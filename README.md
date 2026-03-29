@@ -118,6 +118,7 @@ patient_001/
 * Dimensionality reduction using t-SNE demonstrates partial clustering across calcium burden categories.
 * Radiomics features capture heterogeneity in calcium distribution patterns.
 Results Interpretation
+* The results presented are based on synthetic data and are intended to demonstrate pipeline functionality rather than clinical validity.
 
 Radiomic texture features such as GLCM contrast and correlation demonstrated measurable association with Agatston scores, indicating sensitivity to calcium distribution heterogeneity. Shape features exhibited weaker correlations, suggesting that spatial distribution and texture of calcifications provide more discriminative information than global morphology.
 
@@ -131,6 +132,7 @@ Dimensionality reduction using t-SNE showed partial clustering of samples across
 * Calcium detection is based on a simple threshold (HU > 130), which may include non-coronary calcifications (e.g., bone).
 * Agatston score calculation is simplified and does not fully incorporate slice thickness weighting.
 * Synthetic data is used for testing; real-world validation is required for clinical deployment.
+* Due to computational and storage constraints, synthetic CT volumes were used to validate the pipeline during development. However, the pipeline is designed to be dataset-agnostic and supports direct processing of real clinical datasets such as the Stanford COCA dataset via DICOM or NIfTI inputs.
 
 ---
 
