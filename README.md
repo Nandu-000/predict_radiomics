@@ -117,7 +117,13 @@ patient_001/
 * Shape features exhibit weaker correlation compared to texture features.
 * Dimensionality reduction using t-SNE demonstrates partial clustering across calcium burden categories.
 * Radiomics features capture heterogeneity in calcium distribution patterns.
+Results Interpretation
 
+Radiomic texture features such as GLCM contrast and correlation demonstrated measurable association with Agatston scores, indicating sensitivity to calcium distribution heterogeneity. Shape features exhibited weaker correlations, suggesting that spatial distribution and texture of calcifications provide more discriminative information than global morphology.
+
+Non-parametric statistical testing (Kruskal-Wallis) further confirmed that several radiomic features vary significantly across calcium burden categories (p < 0.05).
+
+Dimensionality reduction using t-SNE showed partial clustering of samples across categories, supporting the hypothesis that radiomics can capture underlying phenotypic differences in calcium deposition.
 ---
 
 ## Limitations
